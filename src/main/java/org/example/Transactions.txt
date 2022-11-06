@@ -1,0 +1,5 @@
+item C bought for 1000.0 2021/12/25 20:27:12
+item C bought for 1000.0 2021/12/25 20:27:15
+item Iphone bought for 1800.0 2021/12/25 20:27:49
+item C bought for 1000.0 2021/12/25 20:29:57
+item C bought for 1000.0 2021/12/25 20:46:43
