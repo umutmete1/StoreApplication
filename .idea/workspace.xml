@@ -8,61 +8,41 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/OwnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2H8M0lldiIGrAtwTixEQxDfkxhz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="2H8M0lldiIGrAtwTixEQxDfkxhz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/UMUT/IdeaProjects/StoreApplication",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest.doubleShouldReturnInput">
-    <configuration name="ProductTest.doubleShouldReturnInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OwnerTest.updatePriceTest">
+    <configuration name="OwnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +51,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductTest" />
-      <option name="METHOD_NAME" value="doubleShouldReturnInput(java.lang.Double)" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerTest.balanceShouldZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="METHOD_NAME" value="balanceShouldZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.quantitiyShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest.checkStocksShouldReturnFalseIfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductTest" />
-      <option name="METHOD_NAME" value="quantitiyShouldBeZero(int)" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="METHOD_NAME" value="checkStocksShouldReturnFalseIfNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.quantityShouldBeInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest.checkStocksShouldReturnFalseIfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductTest" />
-      <option name="METHOD_NAME" value="quantityShouldBeInput(int)" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="METHOD_NAME" value="checkStocksShouldReturnFalseIfNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.shouldReturnMaxDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest.sellProductShouldBeTrueIfItemExist (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductTest" />
-      <option name="METHOD_NAME" value="shouldReturnMaxDouble" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="METHOD_NAME" value="sellProductShouldBeTrueIfItemExist(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.shouldReturnMinDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest.updatePriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductTest" />
-      <option name="METHOD_NAME" value="shouldReturnMinDouble" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OwnerTest" />
+      <option name="METHOD_NAME" value="updatePriceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductTest.doubleShouldReturnInput" />
-        <item itemvalue="JUnit.ProductTest.quantityShouldBeInput" />
-        <item itemvalue="JUnit.ProductTest.quantitiyShouldBeZero" />
-        <item itemvalue="JUnit.ProductTest.shouldReturnMinDouble" />
-        <item itemvalue="JUnit.ProductTest.shouldReturnMaxDouble" />
+        <item itemvalue="JUnit.OwnerTest.updatePriceTest" />
+        <item itemvalue="JUnit.OwnerTest" />
+        <item itemvalue="JUnit.OwnerTest.balanceShouldZero" />
+        <item itemvalue="JUnit.OwnerTest.checkStocksShouldReturnFalseIfNull" />
+        <item itemvalue="JUnit.OwnerTest.checkStocksShouldReturnFalseIfNull" />
       </list>
     </recent_temporary>
   </component>
@@ -160,15 +155,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667662044463</updated>
-      <workItem from="1667662049246" duration="12423000" />
-      <workItem from="1667738454759" duration="2199000" />
-      <workItem from="1667740710659" duration="28000" />
-      <workItem from="1667740933196" duration="4339000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

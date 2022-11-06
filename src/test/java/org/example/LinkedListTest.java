@@ -1,7 +1,6 @@
 package org.example;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -11,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 class LinkedListTest {
     @Test
+    @DisplayName("Contains Test 1")
     void testShouldReturnOne(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -24,6 +24,7 @@ class LinkedListTest {
 
 
     @Test
+    @DisplayName("Contains Test 2")
     void testShouldReturnTwo(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -36,6 +37,7 @@ class LinkedListTest {
     }
 
     @Test
+    @DisplayName("Contains Test 3")
     void testShouldReturnThree(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -48,6 +50,7 @@ class LinkedListTest {
     }
 
     @Test
+    @DisplayName("Contains Test 4")
     void testShouldReturnNull(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -60,6 +63,7 @@ class LinkedListTest {
     }
 
     @Test
+    @DisplayName("Adding Test")
     void addTestShouldReturnProduct3(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -72,6 +76,7 @@ class LinkedListTest {
     }
 
     @Test
+    @DisplayName("Deleting Test")
     void deleteProductTest(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
@@ -92,6 +97,7 @@ class LinkedListTest {
     }
 
     @Test
+    @DisplayName("Console Printing Test")
     void deleteShouldPrint(){
         var linkedList = new LinkedList();
         var Product = new Product("test",10.0,20.0,10,"01");
