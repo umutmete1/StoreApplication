@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+class  MainTest {
 
     @Test
     void fileExceptionTest(){

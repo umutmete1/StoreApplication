@@ -15,7 +15,12 @@ public class Product {
         return quantity;
     }
     public void setQuantity(int quantity) {
-        this.quantity = quantity;
+        if(quantity < 0){
+            this.quantity = 0;
+        }
+        else {
+            this.quantity = quantity;
+        }
     }
 
     private int quantity;
@@ -54,7 +59,7 @@ public class Product {
         this.name = name;
         this.buyingPrice = buyingPrice;
         this.sellingPrice = sellingPrice;
-        this.quantity = quantity;
+        this.quantity = Math.max(quantity, 0);
         this.ID = ID;
     }
 }
