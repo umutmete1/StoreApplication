@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="194c2724-c695-4d2e-a5c0-345aaffe3b65" name="Changes" comment="">
+    <list default="true" id="194c2724-c695-4d2e-a5c0-345aaffe3b65" name="Changes" comment="assertion cases and parameterized cases">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/OwnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +28,18 @@
     </option>
   </component>
   <component name="ProjectId" id="2H8M0lldiIGrAtwTixEQxDfkxhz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RunManager" selected="JUnit.OwnerTest.updatePriceTest">
     <configuration name="OwnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreApplication" />
@@ -168,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="assertion cases and parameterized cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="assertion cases and parameterized cases" />
   </component>
 </project>
