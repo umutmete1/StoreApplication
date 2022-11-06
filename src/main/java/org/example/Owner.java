@@ -1,7 +1,4 @@
 package org.example;
-import javax.swing.*;
-import java.io.File;
-import java.util.ArrayList;
 
 public class Owner {
     public LinkedList getProducts() {
@@ -12,7 +9,7 @@ public class Owner {
         this.products = products;
     }
 
-    private LinkedList products = new LinkedList();
+    private LinkedList products;
 
     public Double getBalance() {
         return balance;
@@ -54,6 +51,9 @@ public class Owner {
     }
 
     public boolean sellProduct(String str) {
+        if (inv.contains(str) == null){
+            return false;
+        }
         Product temp = inv.contains(str).getData();
         if(temp != null){
             temp.setQuantity(temp.getQuantity()-1);
